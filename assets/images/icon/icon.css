@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.icon-person {
+  mask-image: url(person.svg);
+  -webkit-mask-image: url(person.svg);
+}
+.icon-person-edit {
+  mask-image: url(person_edit.svg);
+  -webkit-mask-image: url(person_edit.svg);
+}
+.icon-stars {
+  mask-image: url(stars.svg);
+  -webkit-mask-image: url(stars.svg);
+}
+
+.icon-arrow{
+        mask-image: url(arrow.svg);
+  -webkit-mask-image: url(arrow.svg);
+}
+.icon-arrow-right{
+        mask-image: url(arrowRight.svg);
+  -webkit-mask-image: url(arrowRight.svg);
+}
+.icon-arrow-up{
+        mask-image: url(arrow-up.svg);
+  -webkit-mask-image: url(arrow-up.svg);
+}
